@@ -4,7 +4,7 @@ const http = require('http');
 const WebSocket = require('ws');
 
 const server = http.createServer((req, res) => {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.writeHead(200, {'Content-Type': 'text/plain; charset=utf-8'});
   res.end('รอดในป่าลึก - เซิร์ฟเวอร์ทำงานปกติ (' + Object.keys(rooms).length + ' ห้องออนไลน์)');
 });
 

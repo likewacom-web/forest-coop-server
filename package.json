@@ -1,0 +1,15 @@
+{
+  "name": "forest-coop-server",
+  "version": "1.0.0",
+  "description": "WebSocket relay server for รอดในป่าลึก co-op multiplayer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}
